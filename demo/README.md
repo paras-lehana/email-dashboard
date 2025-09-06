@@ -1,6 +1,44 @@
 # Lehana Mailer - The Smartest Mailer
 
-The full demo is hosted on [YouTube](https://youtu.be/AHAYakYAcQs). 
+The full demo is hosted on [YouTube](https://youtu.be/AHAYakYAcQs). The summary is also provided on YouTube to help you navigate features.
+
+## YouTube Timeline
+
+Summary for [Demo - Email Dashboard (Unstop Hackathon)](https://www.youtube.com/watch?v=AHAYakYAcQs). You can click the time to land exactly on the feature. 
+
+Smart Mailing System Demo: Live Email Dashboard Features and AI Categorization Explained
+
+[00:08](https://www.youtube.com/watch?v=AHAYakYAcQs&t=8) Demo of a smart mailing system with authentication features.
+- The system allows live email sending with security measures to prevent spamming.
+- It includes default authentication credentials and utilizes AI to categorize and recall past user interactions.
+
+[02:10](https://www.youtube.com/watch?v=AHAYakYAcQs&t=130) Demonstration of AI-powered email categorization system.
+- The dashboard resets and categorizes emails using AI, ensuring no memory retention of past data.
+- Sample emails are processed and stored in the database for future interaction and analysis.
+
+[04:07](https://www.youtube.com/watch?v=AHAYakYAcQs&t=247) The email dashboard utilizes AI for real-time categorization and sentiment analysis.
+- The dashboard sorts emails into categories like positive, negative, and neutral, improving organization.
+- It features an extraction tool to retrieve information, though its effectiveness may vary based on content.
+
+[06:05](https://www.youtube.com/watch?v=AHAYakYAcQs&t=365) AI email composer with customizable responses enhances customer support.
+- The AI can analyze customer emails to extract critical information such as names, companies, and requirements.
+- Users can adjust the tone and formality of the AI-generated responses, offering a user-friendly experience before sending.
+
+[08:06](https://www.youtube.com/watch?v=AHAYakYAcQs&t=486) Introduction to the Email Dashboard and its key features.
+- The dashboard categorizes emails into urgent, high, medium, and neutral priorities for efficient management.
+- Analytics provide insights on email volume, response times, and team performance, enhancing customer support effectiveness.
+
+[10:04](https://www.youtube.com/watch?v=AHAYakYAcQs&t=604) Demo showcases email functionality in an integrated dashboard.
+- The application is hosted on Vercel and uses Supabase for database management, facilitating email triggers and updates.
+- Users can send emails to a designated address, which populates the dashboard in real time after refreshing.
+
+[12:10](https://www.youtube.com/watch?v=AHAYakYAcQs&t=730) Demonstration of email support functionality in a dashboard.
+- The user sends a support request email regarding a server issue to the designated support email address.
+- The email system checks for unread messages and updates the interface when new emails are received.
+
+[15:43](https://www.youtube.com/watch?v=AHAYakYAcQs&t=943) AI-driven email response and categorization demo.
+- The system identifies user issues like server frustrations and auto-generates empathetic replies.
+- The dashboard offers functionality to categorize uncategorized emails and review interaction logs.
 
 ## Flow & Features
 1. The dashboard fetches data from the given GMAIL account. 
