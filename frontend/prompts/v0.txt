@@ -1,0 +1,281 @@
+Create a stunning, modern AI-Powered Email Support Assistant Dashboard with a sophisticated light theme that exudes professionalism and innovation:
+
+## CORE LAYOUT & DESIGN:
+Build a clean, light-themed dashboard with subtle glass effects and gradient accents (soft purple to sky blue). Use a 3-column layout:
+- Left sidebar (collapsible): Navigation and smart filters with soft shadows
+- Center: Email list with clean card design
+- Right panel: Email details and AI response composer
+
+## VISUAL DESIGN REQUIREMENTS:
+- Primary background: Linear gradient from #FAFBFC to #F3F4F6 (subtle gray-white)
+- Pure white (#FFFFFF) cards with soft box-shadows (0 1px 3px rgba(0,0,0,0.12))
+- Accent gradient: Purple (#8B5CF6) to Sky Blue (#0EA5E9) for CTAs and highlights
+- Smooth animations: Cards gently lift with shadow enhancement on hover
+- Subtle borders: 1px solid #E5E7EB for definition
+- Animated mesh gradient overlay in header (very subtle, 5% opacity)
+- Custom scrollbar: Thin, rounded, light gray (#D1D5DB)
+
+## TOP HEADER BAR:
+Floating white header with bottom border and subtle shadow:
+- Logo with animated gradient text effect (purple to blue)
+- Real-time stats cards with white background and colored icons:
+  * 📊 "Emails Today" - Blue icon with live counter
+  * 🔥 "Urgent Queue" - Red icon with badge notification
+  * ⏱️ "Avg Response Time" - Green/red indicator
+  * ⭐ "Satisfaction Score" - Gold star rating display
+- Global search bar with gray background (#F9FAFB) and focus animation
+- User avatar with online status ring (green)
+- Settings gear with subtle rotation on hover
+
+## LEFT SIDEBAR - SMART FILTERS:
+White sidebar (240px) with light gray background (#F9FAFB):
+- "Smart Inbox" section with rounded selection indicators:
+  * 📥 All Emails (bold count in blue)
+  * 🔴 Urgent Priority (red badge with count)
+  * 🟠 High Priority (orange badge)
+  * 🟡 Medium Priority (yellow badge)
+  * 🟢 Low Priority (green badge)
+  * ✅ Resolved Today (success green)
+  * 📝 Drafts (gray count)
+
+- "Categories" with colorful icons on white pills:
+  * 🛠️ Support Requests (purple background)
+  * ❓ General Queries (blue background)
+  * 🐛 Bug Reports (red background)
+  * 💳 Billing Issues (green background)
+  * 🔑 Account Access (orange background)
+  * 🚀 Feature Requests (indigo background)
+
+- "Sentiment Filter" with colored dots:
+  * 😡 Very Negative (soft red background #FEE2E2)
+  * 😟 Negative (soft orange background #FED7AA)
+  * 😐 Neutral (soft gray background #F3F4F6)
+  * 😊 Positive (soft green background #D1FAE5)
+  * 🤩 Very Positive (bright green background #A7F3D0)
+
+- "Time Filters" with calendar icon:
+  * Clean date selector with hover states
+  * Active filter highlighted with gradient border
+
+## CENTER - EMAIL LIST:
+Clean, scannable email cards with white background:
+
+Each email card should display:
+- Sender avatar with colorful gradient background (based on name)
+- Sender name (font-weight: 600, color: #111827)
+- Email address (smaller, color: #6B7280)
+- Subject line (font-weight: 500, color: #1F2937)
+- Email preview (color: #6B7280, line-clamp: 2)
+- Time stamp (color: #9CA3AF, position: top-right)
+- Priority indicator as colored left border (4px wide):
+  * URGENT: Thick red border with subtle red background tint
+  * HIGH: Orange border
+  * MEDIUM: Yellow border  
+  * LOW: Green border
+- Sentiment emoji badge (top-right corner)
+- Smart tags with colored backgrounds:
+  * #billing (soft purple)
+  * #technical (soft blue)
+  * #account (soft green)
+- Hover state: Elevate with stronger shadow, show quick actions
+- Quick action buttons (appear on hover):
+  * ✅ Resolve (green)
+  * 💬 Quick Reply (blue)
+  * 📌 Pin (yellow)
+  * 🗑️ Archive (gray)
+
+Special features:
+- Smooth skeleton loading with shimmer
+- Selected state: Gradient border (purple to blue)
+- Unread indicator: Blue dot + bold text
+- Resolved emails: Subtle strikethrough + green checkmark
+
+## RIGHT PANEL - EMAIL DETAILS & AI COMPOSER:
+Clean white panel with organized sections:
+
+### Top Section - Email Details:
+- Clean header with sender avatar and info
+- "Customer Intelligence" card with soft blue background:
+  * Previous tickets with mini timeline
+  * Account tier badge (Gold/Silver/Bronze)
+  * Geographic location with flag
+  * Local time display
+  * Satisfaction history (mini chart)
+  
+- Email body with:
+  * Clean typography (Inter/SF Pro font)
+  * Code blocks with syntax highlighting
+  * Links in blue with underline on hover
+  
+- "AI Insights" cards with gradient icons:
+  * 🎯 Intent Detection (purple gradient card)
+  * 🔑 Key Information (blue gradient card)
+  * 💡 Suggested Actions (green gradient card)
+  * ⚡ Urgency Analysis (red gradient card)
+  * 📎 Attachments (gray card with file icons)
+
+### Bottom Section - AI Response Composer:
+- Gradient button "✨ Generate AI Response" (purple to blue)
+- Clean editor interface:
+  * Tone selector pills: Professional/Friendly/Empathetic/Technical
+  * Template library dropdown with preview
+  * Rich text editor with minimal toolbar
+  * AI Enhancement toggle with magic icon
+  * Response preview with customer's perspective
+  * Quality indicators:
+    - Readability score (with color coding)
+    - Estimated response satisfaction
+    - Tone analysis visualization
+
+- Action buttons with gradient hover effects:
+  * Send Now (gradient background)
+  * Schedule (outline with clock icon)
+  * Save Draft (secondary style)
+
+## FLOATING ACTION BUTTON (FAB):
+Gradient circular button (bottom-right):
+- AI Assistant chat with white popup
+- Quick compose option
+- Keyboard shortcut hints
+
+## ANALYTICS DASHBOARD TAB:
+Professional analytics view with white cards:
+
+### KPI Cards (with subtle gradient backgrounds):
+- Large numbers with trend arrows
+- Mini sparkline charts
+- Period comparison percentages
+- Soft shadows for depth
+
+### Interactive Charts:
+1. **Email Volume Timeline**:
+   - Clean area chart with gradient fill (purple to transparent)
+   - White background with gray grid lines
+   - Interactive tooltip with glass effect
+   - Time range selector pills
+
+2. **Priority Distribution**:
+   - Modern donut chart with spacing between segments
+   - Gradient colors for each priority
+   - Percentage in center
+   - Legend with clickable items
+
+3. **Sentiment Analysis**:
+   - Horizontal bar chart with gradient bars
+   - Emoji indicators for each sentiment
+   - Comparison with previous period (lighter shade)
+
+4. **Response Time Heatmap**:
+   - Clean grid with gradient colors (green to red)
+   - White cell borders
+   - Hover details in tooltip
+   - Hour and day labels
+
+5. **Top Issues Cloud**:
+   - Words with gradient colors
+   - Size variation for frequency
+   - Soft shadows for depth
+   - Interactive filtering
+
+6. **Team Leaderboard**:
+   - Clean table with alternating row colors (#FFFFFF and #F9FAFB)
+   - Avatar, name, metrics
+   - Progress bars for goals
+   - Celebration badge for top performer
+
+## SPECIAL FEATURES TO STAND OUT:
+
+1. **AI Command Palette** (Cmd+K):
+   - White modal with soft shadow
+   - Gradient border on focus
+   - Natural language processing
+   - Recent commands history
+
+2. **Smart Notifications**:
+   - Slide-in cards from top-right
+   - Color-coded by priority
+   - Glass effect background
+   - Auto-dismiss with progress bar
+
+3. **Collaboration Features**:
+   - Live cursors with user colors
+   - Comment threads with avatars
+   - Activity feed sidebar
+   - Presence indicators
+
+4. **Keyboard Navigation**:
+   - Visual hints on hover
+   - Shortcut guide modal
+   - Focus indicators with gradient
+
+5. **AI Insights Widget**:
+   - Floating card with trends
+   - Anomaly detection alerts
+   - Pattern recognition results
+   - Actionable recommendations
+
+6. **Gamification Elements**:
+   - Achievement badges with gradients
+   - Progress rings for daily goals
+   - Streak counter with fire emoji
+   - Team comparison charts
+
+7. **Mobile Responsive**:
+   - Clean bottom navigation
+   - Swipe gestures with visual feedback
+   - Compressed card layout
+   - Touch-optimized buttons
+
+8. **Accessibility Features**:
+   - High contrast mode toggle
+   - Focus visible indicators
+   - ARIA labels
+   - Keyboard shortcuts guide
+
+## TECH STACK TO USE:
+- Next.js 14 with App Router
+- TypeScript for type safety
+- Tailwind CSS with custom design system
+- Framer Motion for professional animations
+- Tremor/Recharts for beautiful charts
+- shadcn/ui for consistent components
+- React Query for efficient data fetching
+- Zustand for state management
+- Sonner for elegant toast notifications
+- Lucide React for crisp icons
+
+## COLOR PALETTE:
+- Background: #FAFBFC to #F3F4F6
+- Cards: #FFFFFF with subtle shadows
+- Primary Gradient: #8B5CF6 to #0EA5E9
+- Urgent: #EF4444 (softer red)
+- High: #F97316 (orange)
+- Medium: #EAB308 (yellow)
+- Low: #10B981 (green)
+- Text Primary: #111827
+- Text Secondary: #6B7280
+- Borders: #E5E7EB
+- Hover states: 5% darker
+- Success: #10B981
+- Info: #3B82F6
+
+## POLISH DETAILS:
+- Subtle gradients on all CTAs
+- Micro-animations on all interactions
+- Smooth page transitions
+- Loading states with breathing animation
+- Empty states with helpful illustrations
+- Success states with confetti (subtle)
+- Professional typography hierarchy
+- Consistent spacing system (4px base)
+- Rounded corners (8px for cards, 6px for buttons)
+- Professional icons (Lucide or Heroicons)
+
+## EMPTY & LOADING STATES:
+- Skeleton screens with subtle pulse
+- Empty inbox with professional illustration
+- "All caught up!" celebration message
+- Progress indicators with percentages
+- Smooth transitions between states
+
+Create a dashboard that feels premium, intelligent, and trustworthy. Every element should communicate professionalism while maintaining visual interest through subtle gradients and animations. The interface should feel responsive and alive without being distracting. Focus on clarity, scannability, and delight through micro-interactions. 

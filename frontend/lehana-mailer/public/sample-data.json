@@ -1,0 +1,69 @@
+{
+  "emails": [
+    {
+      "id": "email_001",
+      "sender": {
+        "name": "Sarah Johnson",
+        "email": "sarah.j@company.com",
+        "avatar": "/professional-woman-avatar.png",
+        "phone": "+1-555-0123"
+      },
+      "subject": "Unable to access my account after password reset",
+      "body": "Hi, I tried to reset my password yesterday but I'm still unable to log in. The reset email arrived but when I click the link it says 'Invalid or expired token'. I've tried this multiple times and cleared my browser cache. Could you please help me regain access to my account? My account email is sarah.j@company.com. Thanks, Sarah",
+      "preview": "Hi, I tried to reset my password yesterday but I'm still unable to log in...",
+      "receivedAt": "2024-01-09T14:30:00Z",
+      "priority": "urgent",
+      "sentiment": {
+        "score": "negative",
+        "emoji": "😟",
+        "confidence": 0.85
+      },
+      "category": "account_access",
+      "status": "unread",
+      "tags": ["#account", "#technical", "#password-reset"],
+      "hasAttachments": false,
+      "extractedInfo": {
+        "contactDetails": {
+          "phone": "+1-555-0123",
+          "company": "Company Inc"
+        },
+        "requirements": ["password reset assistance", "account access"],
+        "urgencyKeywords": ["unable", "multiple times", "help"],
+        "productMentions": ["account", "password reset"],
+        "sentimentIndicators": {
+          "positive": [],
+          "negative": ["unable", "invalid", "expired"]
+        }
+      },
+      "aiResponse": {
+        "generatedReply": "Hi Sarah, I understand how frustrating this must be. I'll help you regain access to your account right away. Let me generate a new password reset link that will work properly. Please check your email in the next few minutes.",
+        "tone": "empathetic",
+        "confidence": 0.92,
+        "suggestions": ["Offer immediate assistance", "Acknowledge frustration", "Provide clear next steps"],
+        "templates": ["password-reset-assistance", "account-access-help"]
+      },
+      "customerIntelligence": {
+        "accountTier": "gold",
+        "satisfactionScore": 4.8,
+        "previousInteractions": 3,
+        "location": "San Francisco, CA",
+        "timezone": "PST",
+        "localTime": "2:34 PM PST"
+      }
+    }
+  ],
+  "stats": {
+    "totalEmails": 1247,
+    "emailsToday": 247,
+    "urgentQueue": 12,
+    "avgResponseTime": "2.1h",
+    "satisfactionScore": 4.8,
+    "resolutionRate": 94.2,
+    "trends": {
+      "totalEmails": 12.5,
+      "avgResponseTime": -8.2,
+      "satisfactionScore": 0.3,
+      "resolutionRate": 2.1
+    }
+  }
+}

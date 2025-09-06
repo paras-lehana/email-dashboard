@@ -1,0 +1,88 @@
+Create a premium light-themed email AI support dashboard with these specifications:
+
+Layout Structure:
+
+Fixed header with gradient logo, search bar, notifications bell, user profile
+3-column layout: Filters (250px) | Email List (400px) | Email Detail/Response (flex)
+Bottom analytics panel with real-time charts
+Color Palette:
+
+Base: #FFFFFF background, #F8FAFC cards
+Gradient accent: linear-gradient(135deg, #667EEA → #764BA2)
+Text: #1A202C primary, #4A5568 secondary
+Status colors: Urgent #EF4444, High #F59E0B, Normal #10B981
+Subtle shadows: 0 1px 3px rgba(0,0,0,0.05)
+Key Components:
+
+1. Email List Cards:
+
+[Priority Badge] [Sentiment Icon]
+Sender Name · timestamp
+Subject Line (bold)
+Preview text (2 lines, truncated)
+Tags: #billing #urgent
+Hover: translate(-2px) with shadow increase
+Click: gradient border animation
+Unread: subtle blue left border
+2. Email Detail Panel:
+
+Header: Sender info, priority, sentiment score
+Body: Clean typography, 1.6 line-height
+Extracted Info cards: Contact details, Key requirements, Action items
+AI Response section:
+Editable textarea with formatting toolbar
+Confidence score badge
+"Send", "Edit", "Regenerate" buttons with gradient backgrounds
+3. Analytics Dashboard:
+
+4 stat cards: Total (24h), Resolved, Pending, Avg Response Time
+Interactive charts: Email volume line graph, Sentiment pie chart, Priority distribution
+All with gradient accents and smooth hover animations
+4. Filter Sidebar:
+
+Modern toggle switches for Urgent/All
+Sentiment checkboxes with colored indicators
+Date range picker with calendar dropdown
+Category multi-select with tags
+"Apply Filters" gradient button
+Visual Features:
+
+Glassmorphism on overlays: backdrop-filter: blur(10px)
+Micro-animations: 0.2s ease on all interactions
+Loading states: Gradient skeleton screens
+Empty states: Friendly illustrations with CTAs
+Success animations: Checkmark with radial gradient burst
+Interactive Elements:
+
+Email cards expand slightly on hover
+Smooth scroll with momentum
+Drag-to-refresh on email list
+Right-click context menus
+Keyboard shortcuts (Cmd+K for search)
+Real-time updates with subtle fade-ins
+Professional Touches:
+
+Rounded corners: 12px cards, 8px buttons
+Consistent 8px spacing grid
+Soft dividers: 1px solid #E2E8F0
+Status indicators with pulsing dots
+Breadcrumb navigation
+Time stamps in relative format
+Header Actions:
+
+Search with dropdown suggestions
+Filter pills showing active filters
+Bulk actions toolbar on selection
+Export dropdown (CSV, PDF)
+Typography:
+
+Headers: Inter/SF Pro 600 weight
+Body: System font stack, 14px base
+Monospace for IDs/codes
+Responsive Behavior:
+
+Collapsible sidebar < 1400px
+Stacked layout < 768px
+Touch-optimized on mobile
+
+Build with modern stack focusing on performance, accessibility (ARIA labels, keyboard nav), and smooth 60fps animations. The interface should feel premium yet approachable, with every interaction providing subtle feedback through color, motion, or shadow changes. Emphasize visual hierarchy through spacing and contrast rather than heavy borders.
